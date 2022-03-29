@@ -11,7 +11,7 @@ PaintCan.prototype.checkIfEmpty = function() {
 };
 
 PaintCan.prototype.empty = function() {
-    this.amount = 0
-}
+    this.amount = 0;
+};
 
 module.exports = PaintCan;
